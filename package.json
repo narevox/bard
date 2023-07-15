@@ -22,7 +22,9 @@
   "author": "Yusril",
   "license": "MIT",
   "dependencies": {
+    "bard-ai": "^1.5.3",
     "express": "^4.18.2",
+    "fs": "^0.0.1-security",
     "googlebard": "^1.0.7"
   },
   "directories": {
