@@ -1,4 +1,4 @@
 # bard
 idk i made rest api ig with my sucks skill
 
-https://web-narevox.cloud.okteto.net/bard?text=(TEXT)&id=(SOME RANDOM TEXT/NUMBER)&bardcookies=(UR BARD COOKIES WEB)
+https://web-narevox.cloud.okteto.net/bard?text=(TEXT)&id=(SOME_RANDOM _TEXT/NUMBER)&bardcookies=(UR_BARD_COOKIES_WEB)
