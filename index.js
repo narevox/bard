@@ -21,7 +21,7 @@ app.get('/bardv2', async (req, res) => {
     
     
 
-const filename = "./user-conversations-"+id+".json";
+const filename = "./user-conversations-v2-"+id+".json";
 
 // Check if the file exists
 if (!fs.existsSync(filename)) {
@@ -44,7 +44,7 @@ if (!fs.existsSync(filename)) {
 
 
 const saveOutput = (output) => {
-    const filePath = "./user-conversations-"+id+".json";
+    const filePath = "./user-conversations-v2-"+id+".json";
 
     try {
         fs.readFile(filePath, (err, data) => {
@@ -97,7 +97,8 @@ app.get('/bard', async (req, res) => {
     	let cookies = `__Secure-1PSID=`+bardcookies;
 		let bot = new Bard(cookies, {
   			  inMemory: false,
-  			  savePath: "./conversations.json", // this is being done to save crucial information about the conversation so the bot remembers it
+  			  savePath: "./user-conversations-"+id+".json";
+, // this is being done to save crucial information about the conversation so the bot remembers it
 		});
 		console.log(text, id, bardcookies)
 		let conversationId = id;
