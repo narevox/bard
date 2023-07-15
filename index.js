@@ -25,7 +25,7 @@ app.get('/bard', async (req, res) => {
     	console.log(response)
         res.send({status: 200, bardcookies: bardcookies, response: response});
 });
-app.listen(8000)
+app.listen(5000)
 }
 
 lol()
