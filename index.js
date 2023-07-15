@@ -1,8 +1,11 @@
 import express from 'express'
 import { Bard } from "googlebard";
 const app = express()
-async function lol () {
-app.get('/', function (req, res) {
+
+
+async function lel() {
+  try {
+    app.get('/', function (req, res) {
     res.send("hello world")
 })
 
@@ -26,6 +29,10 @@ app.get('/bard', async (req, res) => {
         res.send({status: 200, bardcookies: bardcookies, response: response});
 });
 app.listen(5000)
+  } catch (error) {
+    // Return the error message
+    return res.send({status: 200, error: error.message});
+  }
 }
 
 lol()
