@@ -97,7 +97,7 @@ app.get('/bard', async (req, res) => {
     	let cookies = `__Secure-1PSID=`+bardcookies;
 		let bot = new Bard(cookies, {
   			  inMemory: false,
-  			  savePath: "./user-conversations-"+id+".json";
+  			  savePath: "./user-conversations-"+id+".json"
 , // this is being done to save crucial information about the conversation so the bot remembers it
 		});
 		console.log(text, id, bardcookies)
