@@ -1,4 +1,8 @@
 # bard
 idk i made rest api ig with my sucks skill
 
-https://web-narevox.cloud.okteto.net/bard?text=TEXT&id=SOME_RANDOM _TEXT&bardcookies=UR_BARD_COOKIES_WEB/
+v1(legacy unstable)
+https://web-narevox.cloud.okteto.net/bard?text=TEXT&id=SOME_ID&bardcookies=UR_BARD_COOKIES_WEB/
+
+v2(good, more stable)
+https://web-narevox.cloud.okteto.net/bardv2?text=TEXT&id=SOME_ID&bardcookies=UR_BARD_COOKIES_WEB/
