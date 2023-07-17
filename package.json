@@ -24,7 +24,7 @@
   "dependencies": {
     "bard-ai": "^1.5.3",
     "express": "^4.18.2",
-    "fs": "@cyclic.sh/s3fs",
+    "@cyclic.sh/s3fs": "2.5.0^",
     "googlebard": "^1.0.7"
   },
   "directories": {
