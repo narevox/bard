@@ -1,6 +1,6 @@
 import express from 'express'
 import { Bard } from "googlebard";
-import fs from "@cyclic.sh/s3fs";
+import fs from "fs";
 import Bardv2 from "bard-ai";
 const app = express()
 
